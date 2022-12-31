@@ -1,0 +1,13 @@
+/* Css da Página */
+body {
+  /* A função url indica o caminho do asset usado. */
+  /* background-image: url(./assets/mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center; */
+  /* Cobre todo espaço que fiaria em branco */
+  /* background-size: cover; */
+
+  background: url(./assets/mobile.jpg) no-repeat top center/cover;
+}
+
+/* background color image repeat position/size */
