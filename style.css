@@ -1,4 +1,12 @@
 /* Css da Página */
+
+/* reset de css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   /* A função url indica o caminho do asset usado. */
   /* background-image: url(./assets/mobile.jpg);
@@ -7,7 +15,65 @@ body {
   /* Cobre todo espaço que fiaria em branco */
   /* background-size: cover; */
 
+  /* background color image repeat position/size */
   background: url(./assets/mobile.jpg) no-repeat top center/cover;
 }
 
-/* background color image repeat position/size */
+body * {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+#container {
+  width: 360px;
+  /* height: 712px; */
+  /* Centralizando uma DIV */
+  margin: 56px auto;
+  /* margin-right: auto;
+  margin-left: auto; */
+  /* margin-top: 56px; */
+}
+
+#profile {
+  padding: 24px;
+  text-align: center;
+}
+
+#profile img {
+  /* display: block; */
+  width: 112px;
+  margin: auto;
+}
+
+#profile p {
+  font-weight: 500; /*"Peso" da fonte*/
+  line-height: 24px; /*altura da linha*/
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* lista */
+ul {
+  /* remove a formatação de lista */
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a {
+  /* Cria linhas imaginárias na vertical e horizontal (aumentando o espaço -maximizando- ao redor do item */
+  display: flex;
+  /* Alinha na horizontal */
+  justify-content: center;
+  /* Alinha na vertical */
+  align-items: center;
+  /* gap de 16x e padding 24px */
+  padding: 16px 24px;
+
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+
+  backdrop-filter: blur(4px);
+}
