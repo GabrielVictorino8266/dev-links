@@ -65,7 +65,6 @@ body * {
 #profile img {
   /* display: block; */
   width: 112px;
-  margin: auto;
 }
 
 #profile p {
@@ -143,7 +142,7 @@ ul li a {
   font-weight: bold;
 
   /*Adicionando suavidade ao hover*/
-  transition: background 0.5s;
+  transition: all 0.2s;
 }
 
 /*Pseudo-selector*/
