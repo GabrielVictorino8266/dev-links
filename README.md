@@ -11,6 +11,7 @@ Repositório criado para o curso gratuito de 5 horas da rocketseat, disponibiliz
 ## Screenshots
 
 ![preview](./github/previewDarkMode.png)
+<img src="./github/previewDarkMode.png" width="200px" height="100px">
 
 ![preview](./github/previewLightMode.png)
 
